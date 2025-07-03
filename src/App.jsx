@@ -752,7 +752,7 @@ function App() {
     }
   }, [mode]);
   return (
-    <Router>
+    <Router basename="/vegas-adventures">
       <nav className="nav-bar">
         <Link to="/" className="nav-logo-link">
           <img src={vegasLogo} alt="Vegas Adventures Logo" className="nav-logo" />
